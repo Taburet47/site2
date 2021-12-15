@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="Style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
+        <header>
+            <div style="text-align: left;">
+                <table style="text-align: left;">
+                <tr>
+                    <td><img src="img/logo.png" class="logo"></td>
+                    <td><table>
+                        <tr>
+                            <td>
+                                <a href="">Tech4U</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="" class="descr">Онлайн-магазин компьютерной техники</a>
+                            </td>
+                        </tr>
+                    </table></td>
+                </tr>
+            </table>
+            </div>
+            
+            <div class="navbar">
+                <a href="mainpage1.html">Главная</a> <a href="catalog1.html">Каталог</a> <a href="contacts.html">О Нас</a>
+            </div>
+            <div class="container header__container">
+                <div class="menu-burger__header">
+                    <span></span>
+                </div>
+                <nav class="header__nav">
+                    <ul class="menu header__menu">
+                        <li><a href="mainpage1.html" class="menu__item">Главная</a></li>
+                        <li><a href="catalog1.html" class="menu__item">Каталог</a></li>
+                        <li><a href="contacts.html" class="menu__item">О Нас</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="first-buypage">
+            <div class="flex-container">
+                <div class="miniimg">
+                    <img src="img/Наушники.png" class="mini-image"> 
+                </div>
+                <div class="inf">
+                    <div class="charact">
+                        <div style="display: inline-block;">
+                            Название:
+                        </div>
+                        <div style="display: inline-block;">
+                            J527    
+                        </div>
+                    </div>
+                    <div class="charact">
+                        <div style="display: inline-block;">
+                            Стоимость:
+                        </div>
+                        <div style="display: inline-block;">
+                            237 BYN
+                        </div>
+                    </div>
+                    <div class="charact">
+                        <div style="display: inline-block;">
+                            Количество:
+                        </div>
+                        <div style="display: inline-block; text-align: left;">
+                            <input type="number" min="1" value="1"> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "leftinput">
+                <div class="flex-container">
+                    <div class="charact">
+                        <div style="display: inline-block;">
+                            <h2>Итого:</h2>   
+                        </div>
+                        <div style="display: inline-block;">
+                            <h2>237 BYN</h2>   
+                        </div>
+                    </div>
+                    <div style="width: 30%;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="personal-inf">
+            <h1>Персональная информация</h1>
+            <hr class = "line">
+            <div class="flex-container">
+                <div class="flex-item">
+                    <div>
+                        <input placeholder="Имя">
+                    </div>
+                    <div>
+                        <input placeholder="Телефон">
+                    </div>
+                                
+                </div>
+                 <div class="flex-item commentinp">
+                     <textarea placeholder="Комментарий"></textarea>
+                </div>
+            </div>
+            <div class="divbutton">
+                <button class="button">Отправить</button>  
+            </div>   
+        </div>
+                     
+                        
+                    
+                     
+                     <footer>
+                        <div class="flex-container">
+                            <div class="flex-item">
+                                    <img src="img/instagram.png" class="image">
+                            </div>
+                            <div class="flex-item">
+                                    <img src="img/VK.png" class="image">
+                            </div>
+                            <div class="flex-item">
+                                    <img src="img/facabook.png" class="image">
+                            </div>
+                            <div class="flex-item">
+                                <img src="img/twitter.png" class="image">
+                        </div>
+                        </div>
+                    </footer>
+                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                    <script>
+                        $(document).ready(function() {
+                            $('.menu-burger__header').click(function() {
+                                $('.menu-burger__header').toggleClass('open-menu');
+                            });
+                        });
+                        $(document).ready(function() {
+                            $('.menu-burger__header').click(function(){
+                                $('.menu-burger__header').toggleClass('open-menu');
+                                $('.header__nav').toggleClass('open-menu');
+                            });
+                        });
+                    </script>           
+    </body>
+</html>

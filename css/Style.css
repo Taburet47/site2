@@ -1,0 +1,709 @@
+*{
+    font-family: sans-serif;
+    font-size: 18pt;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 36pt;
+}
+
+h2{
+    font-size: 28pt;
+    font-weight: 200;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex-item a:visited{
+    color: black;
+}
+
+header a:visited{
+    color: white;
+}
+
+.flex-container{
+    display:  flex;
+    flex-direction:  row;
+    justify-content: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+table div{
+    text-align: left;
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+.line{
+    width: 50%;
+    border-width: 2px;
+    background-color: black;
+    border-color: black;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display:  flex;
+    flex-direction:  row;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+header a{
+    color: white;
+
+}
+
+.navbar{
+    margin-left: 30%;
+    width: 70%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.navbar a{
+    margin-right: 10%;
+}
+.first{
+    text-align: center;
+    margin-top: 1%;
+}
+
+.first-screen-img{
+    width: 90%;
+}
+
+
+
+.second{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.third{
+    margin-top: 2%;
+    padding-top: 8%;
+    text-align: center;
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.third .flex-container{
+    align-items: center;
+    
+}
+
+
+.im2 .image {
+    width: 45%;
+    display: inline;
+}
+
+
+
+.slick-current .image{
+    width: 50%;
+    display: inline;
+}
+
+.discount{
+    position: relative;
+    display: inline-block;
+}
+
+.forth .flex-item{
+    width: 23%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.forth h1{
+    margin-top: 0px;
+}
+
+footer{
+    background-color: black;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+footer .flex-item{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer .flex-container{
+    margin-top: 0;
+}
+
+
+.mainimg{
+    margin-right: 2%;
+    width: 50%;
+}
+
+.mainimg .image{
+    width: 100%;
+}
+
+.inf{
+    margin-left: 2%;
+    width: 40%;
+    padding-bottom: 2%;
+}
+
+button{
+    padding: 2% 15% 2% 15%;
+    border-radius: 40px;
+    background-color: white;
+    border: 3px solid black;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.inf button{
+    margin: 3%;
+}
+
+.inf .image{
+    width: 30%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.inf h2{
+    margin-bottom: 15%;
+}
+
+.second-com .third{
+    padding-bottom: 5%;
+}
+
+.comments{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.comment{
+    width: 50%;
+    margin:0 auto;
+}
+
+.mail{
+    text-align: left;
+}
+
+.main .slick-list{
+    height: 100%;
+    width: 100%;
+}
+
+.date{
+    text-align: right;
+}
+
+.third h1{
+    margin-top: 0;
+}
+
+.lorem{
+    text-align: left;
+}
+
+.galery{
+    margin-top: 1%;
+}
+.galeryimg{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: inline-block;
+}
+
+.galeryimgr{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: inline-block;
+    width: 30%;
+}
+
+.galeryimgl{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: inline-block;
+    width: 57%;
+}
+
+.galeryimgb{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width: 43.5%;
+    display: inline-block;
+}
+
+.galeryimage{
+    width: 100%;
+}
+
+
+.galerysign
+{
+    position:absolute;
+}
+
+.galery h1{
+    color: white;
+    font-weight: 100;
+    padding-left: 1%;
+}
+
+.thirdcatalog{
+    margin-top: 10%;
+}
+
+.second .flex-item{
+    width: 25%;
+    margin: 0;
+}
+
+.second .image{
+    width: 70%;
+}
+
+h4{
+    text-align: left;
+    font-size: 28pt;
+    font-weight: 200;
+}
+
+.map{
+    width: 75%;
+}
+
+.image{
+    width: 80%;
+}
+
+.middleim > .im2 {
+    display: none;
+    width: 100%;
+}
+
+.third .flex-container{
+    flex-wrap: nowrap;
+}
+
+.slick-track{
+    height: 60%;
+}
+
+.third-com .slick-current .image {
+    width: 80%;
+}
+
+.third-com .image {
+    width: 80%;
+}
+
+.third-com .slick-slide{
+    height: auto;
+}
+
+.personal-inf{
+    padding-bottom: 5%;
+}
+
+.personal-inf input{
+    text-align: left;
+    margin-bottom: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    border-radius: 30px;
+}
+
+.personal-inf .commentinp{
+    width: 30%;
+}
+
+.personal-inf .commentinp textarea{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    resize: none;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+
+.divbutton{
+    margin-top: 2%;
+}
+
+.divbutton button{
+    width: 20%;
+
+    padding: 0;
+    padding-bottom: 1%;
+    padding-top:1%;
+}
+
+.mini-image{
+    width: 50%;
+}
+
+.first-buypage .inf .flex-container{
+    justify-content: left;
+    flex-wrap: nowrap;
+}
+
+.first-buypage .flex-container{
+    justify-content: left;
+    flex-wrap: nowrap;
+}
+
+.first-buypage .inf{
+    width: auto;
+    text-align: left;
+}
+
+.miniimg{
+    text-align: right;
+}
+
+.charact{
+    text-align: left;
+    height: 30%;
+}
+
+.first-buypage input{
+    width: 30%;
+}
+
+.leftinput{
+    text-align: left;
+}
+
+.leftinput .flex-container{
+    justify-content: center;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+a:hover{
+    text-shadow: rgb(255, 255, 255) 1px 1px 1px;
+}
+
+@media only screen and (max-width: 723px){
+    *{
+        font-size: 12pt;
+    }
+
+    body{
+        background-size: auto;
+    }
+    .navbar{
+        display: none;
+    }
+
+    h1{
+        font-size: 18pt;
+    }
+    h2{
+        font-size: 12pt;
+    }
+    h3{
+        font-size: 12pt;
+    }
+    .flex-item{
+        width: 80%;
+    }
+    .flex-item {
+        width: 70%;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+
+    .third .flex-container{
+        flex-wrap: wrap;
+    }
+
+
+    .middleim .image{
+        width: 80%;
+    }
+
+    
+
+    .middleim {
+        width: 80%;
+        padding-left: 14%;
+    }
+
+    .third{
+        background-image: none;
+    }
+
+    .forth .flex-item {
+        width: 40%;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+
+    .second .flex-item {
+        width: 70%;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+
+    footer .flex-item {
+        width: 20%;
+    }
+
+    .first-Item .flex-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mainimg {
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    .inf {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .comment {
+        width: 80%;
+    }
+    .third-com .flex-item{
+        width: 70%;
+    }
+    .third .inf{
+        margin-left: 5%;
+    }
+
+    .slick-current .flex-item .im2 {
+        width: 100%;
+    }
+
+    .third-com .slick-current .image {
+        width: auto;
+        padding-left: 0%;
+    }
+
+    .slick-slide .image {
+        width: auto;
+    }
+    .third-com{
+        margin-bottom: 5%;
+    }
+    .third-com .image {
+        padding-left: 0;
+    }
+
+    .third .slick-current .flex-item .im2 {
+        text-align: center;
+    }
+
+    .third-com .image{
+        display: inline;
+    }
+
+    .third .image{
+        display: inline;
+    }
+
+    .divbutton button {
+        width: 60%;
+    }
+
+    .personal-inf .flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personal-inf .commentinp{
+        width: 70%;
+        margin: 0;
+        margin-bottom: 5%;
+        height: 120%;
+    }
+    .personal-inf .commentinp textarea{
+        width: 70%;
+        height: 100px;
+        border-radius: 30px;
+        resize: none;
+        text-align: left;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+    }
+    .miniimg {
+        text-align: right;
+        width: 300px;
+    }
+    .main .slick-list{
+        height: 30%;
+        width: 100%;
+    }
+}
+.container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+.header__nav {
+    position: absolute;
+    right: 36px;
+    display: block;
+}
+.header__menu {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+.header__menu li {
+    list-style: none;
+    margin: 0px 0px 0px 36px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.container{
+    display: none;
+}
+
+.descr{
+    display: inline;
+}
+@media(max-width: 767px){
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+        .container{
+            display: block;
+        }
+        .menu-burger__header {
+            position: relative; /* задаем относительное позиционирование */
+            width: 40px; /* определяем размеры блока */
+            height: 35px;
+            display: block;
+            margin-right: 10%;
+            float: right;
+        }
+        .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+            height: 3px;
+            width: 100%;
+            position: absolute;
+            background: #515758;
+            margin: 0 auto;
+        }
+        .menu-burger__header span{
+            top: 16px;
+        }
+        .menu-burger__header:after, .menu-burger__header:before{
+            content: '';
+        }
+        .menu-burger__header:after{
+            bottom: 5px;
+        }
+        .menu-burger__header:before{
+            top: 5px;
+        }
+        .header__nav {
+            display: none;
+        }
+        .menu-burger__header.open-menu span {
+            opacity:0; 
+            transition: 0.5s; 
+        }
+        .menu-burger__header.open-menu:before {
+            transform: rotate(38deg);
+            top: 16px;
+            transition: 0.4s;
+        }
+        .menu-burger__header.open-menu:after {
+            transform: rotate(-38deg);
+            bottom: 16px;
+            transition: 0.4s;
+        }
+        .header__nav {
+            display: block;
+            position: absolute;
+            top: 55px;
+            left: 0;
+
+            background: rgb(245, 246, 246);
+            box-shadow: #ccc;
+            width: 100%;
+            box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+        }
+        .header__menu {
+            display: block;
+        }
+        .header__menu li {
+            margin: 40px 0px 40px 33px;
+            font-size: 14px;
+        }
+        .header__nav {
+            display: block;
+            position: absolute;
+            top: -555px;
+            left: 0;
+            background: black;
+            box-shadow: #ccc;
+            width: 100%;
+            box-shadow: 0 5px 6px rgba(36, 36, 36, 0.37);
+            transition: all 0.4s ease;
+        }
+        .header__nav.open-menu {
+            left: 0;
+            top: 55px;
+            display: block;
+            z-index: 20;
+        }
+        .descr{
+            display: none;
+        }
+        .slick-track{
+            height: 400px;
+        }
+}
