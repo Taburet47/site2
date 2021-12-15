@@ -116,14 +116,19 @@ header a{
 }
 
 
-.im2 .image {
+.third .im2 .image {
     width: 45%;
+    display: inline;
+}
+
+.im2 .image {
+    width: 80%;
     display: inline;
 }
 
 
 
-.slick-current .image{
+.third .slick-current .image{
     width: 50%;
     display: inline;
 }
